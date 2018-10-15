@@ -1,4 +1,4 @@
-# user={'name':'egon','pwd':'123'}
+ # user={'name':'egon','pwd':'123'}
 # with open('db.txt','w',encoding='utf-8') as f:
 #     f.write(str(user))
 

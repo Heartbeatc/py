@@ -1,0 +1,76 @@
+一. 回顾昨日内容
+    1. 列表的定义:
+        能装对象的对象. 由[]表示. 内部使用逗号隔开
+        索引和切片 . 从0开始
+        [start: end: step]
+    2. 增删改查
+        1. 新增: append(), insert(), extend()迭代添加
+        2. 删除: pop(), remove(), clear(), del 元素
+        3. 修改: 索引或切片修改
+        4. 查询: 索引查询 for el in list:
+        5. 操作: count(), index(), find(), sort(reverse=True), reverse()
+    3. 元组(tuple):
+        由()表示. 内部用逗号隔开.
+        不可变, 只读列表
+        不可变指的是第一层元素.
+
+        不可变的数据类型: int, str, bool, (元组)
+
+    4. range()
+        range(10) 0-9
+        range(1, 12)  1-11
+        range(1，12， 3) 1 4 7 10
+
+        for el in list: # 没有索引
+
+        for i in range(len(list)):
+            list[i]
+二. 作业讲解
+
+三. 今日主要内容
+    1. 什么是字典
+        dict. 以{}表示. 每一项用逗号隔开, 内部元素用key:value的形式来保存数据
+        {"jj":"林俊杰", "jay":"周杰伦"}
+
+        查询的效率非常高, 通过key来查找元素
+        内部使用key来计算一个内存地址(暂时),hash算法. key必须是不可变的数据类型(key 必须是可哈希的数据类型)
+        可哈希就是不可变
+
+    2. 字典的增删改查
+        1. 字典的新增:
+            dict[新key] = value
+            dict.setdefault()
+        2. 删除
+            pop(key)
+            popitem()
+            clear()
+            del dict[key]
+        3. 修改
+            dic[key] = 新值
+            update()
+        4. 查询
+            1. 用key直接查询 dict[key]
+            2. get(key, 如果key不存在返回的数据)
+            3. setdefault() 1. 执行新增流程. 2. 查询结果
+        5. 操作
+            1. keys() 获取所有键  这个返回的不是列表, 很像列表
+            2. values()获取所有的值
+            3. items() 获取所有的键值对. 返回的是元组
+            解构, 直接把元组或者列表中的数据拿出来.
+            a, b, c = (a1, b1, c1) 必须一一对应
+
+        6. 遍历字典
+            for key in dict:
+                dict[key]
+
+            for k, v in dict.items():
+                k , v
+
+        7. 字典嵌套.
+
+
+    预习:
+        1. == 和 is 的区别(小数据池)
+        2. 再谈编码(decode(), encode())
+
+        建议: 1. 本周作业过一遍. 大作业    2. 玩儿. 回来之后.预习一下. 大作业

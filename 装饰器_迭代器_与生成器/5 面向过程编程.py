@@ -80,7 +80,7 @@ def printer():
 
 
 
-search(r'\Volumes\docker\Py\装饰器_迭代器_与生成器\a',opener(cat(grep('你好',printer()))))
+search(r'/Volumes/docker/Py/py/装饰器_迭代器_与生成器/a',opener(cat(grep('你好',printer()))))
 
 
 

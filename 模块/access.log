@@ -1,0 +1,5 @@
+2018-10-07 15:18:48 PM - root - DEBUG -logging模块:  debug
+2018-10-07 15:18:48 PM - root - INFO -logging模块:  info
+2018-10-07 15:18:48 PM - root - WARNING -logging模块:  warning
+2018-10-07 15:18:48 PM - root - ERROR -logging模块:  error
+2018-10-07 15:18:48 PM - root - CRITICAL -logging模块:  critical
