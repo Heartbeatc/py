@@ -17,12 +17,12 @@
 # print(id(lst1[2]), id(lst2[2]))
 
 # 导入拷贝模块
-import copy
-lst1 = ["太白", "日天", ["盖浇饭", "锅包肉", "吱吱冒油的猪蹄子"], "哪吒", "银王", "金王"]
-lst2 = copy.deepcopy(lst1)
-
-print(lst1, lst2)
-print(id(lst1[2]), id(lst2[2])
+# import copy
+# lst1 = ["太白", "日天", ["盖浇饭", "锅包肉", "吱吱冒油的猪蹄子"], "哪吒", "银王", "金王"]
+# lst2 = copy.deepcopy(lst1)
+#
+# print(lst1, lst2)
+# print(id(lst1[2]), id(lst2[2])
 
 
 # 赋值没有创建新对象。多个变量共享同一个对象
