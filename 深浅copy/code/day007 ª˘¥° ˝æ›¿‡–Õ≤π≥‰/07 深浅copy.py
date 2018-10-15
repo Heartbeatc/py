@@ -32,6 +32,6 @@ print(id(lst1[2]), id(lst2[2])
 
 
 
-a = [1, 2]
-a[1] = a
-print(a[1])
+# a = [1, 2]
+# a[1] = a
+# print(a[1])
