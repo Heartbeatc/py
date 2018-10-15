@@ -112,3 +112,5 @@ while 1:
 #     # 进行累加
 #     print(s[count])
 #     count -= 1
+
+#nicai
